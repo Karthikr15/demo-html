@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>   
+<style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        img {
+            margin-top: 50px;
+            border: 5px solid #555;
+            border-radius: 10px;
+        }
+    </style>
+
+<body>
+    <H1>Welcome to flask with html</H1>
+       <img src="{{ url_for('static', filename='download.jpg') }}" alt="Welcome" width="400">
+</body>
+</html>
