@@ -12,21 +12,17 @@ def welcome():
 def index():
     return render_template('index.html')
 
-@app.route('/index')
+@app.route('/about')
 def index():
-    return render_template('index.html')
+    return render_template('about.html')
 
-@app.route('/index')
+@app.route('/forms')
 def index():
-    return render_template('index.html')
+    return render_template('forms.html')
 
-@app.route('/index')
+@app.route('/services')
 def index():
-    return render_template('index.html')
-
-@app.route('/index')
-def index():
-    return render_template('index.html')
+    return render_template('services.html')
 
 
 if __name__ == '__main__':
